@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { Header } from './components/Header'
 import { QuizCart } from './components/QuizCart'
-import { ResultPage } from './components/ResultPages'
+import { ResultPages } from './components/ResultPages'
 
 const App = () => {
 	return (
@@ -10,7 +10,7 @@ const App = () => {
 			<Routes>
 				<Route path='/' element={<QuizCart />} />
 				<Route path='/:pathname' element={<QuizCart />} />
-				<Route path='/result' element={<ResultPage />} />
+				<Route path='/result' element={<ResultPages />} />
 			</Routes>
 		</div>
 	)
