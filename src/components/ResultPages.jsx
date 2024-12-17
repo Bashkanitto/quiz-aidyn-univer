@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-export const ResultPage = () => {
+export const ResultPages = () => {
 	const answers = localStorage.getItem('correctAnswers')
 	const [correctAnswers, setCorrectAnswers] = useState(0)
 	const navigate = useNavigate()
