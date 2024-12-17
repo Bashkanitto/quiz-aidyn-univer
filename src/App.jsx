@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { Header } from './components/Header'
 import { QuizCart } from './components/QuizCart'
-import { ResultPage } from './components/resultPage'
+import { ResultPage } from './components/ResultPage'
 
 const App = () => {
 	return (
