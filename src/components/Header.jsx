@@ -6,6 +6,7 @@ export const Header = () => {
 					<a href='/algorithm'>Алгоритм</a>
 					<a href='/injenery'>Инженерия</a>
 					<a href='/architecture'>Архитектура</a>
+					<a href='/chemotech'>Схемотехника</a>
 					<a
 						style={{
 							background: '#EAF6F4',

@@ -2,11 +2,12 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { algorithmData } from './Algorithm'
 import { architectureData } from './Architecture'
+import { chemotechData } from './Chemotech'
 import { injeneryData } from './Injenery'
 
 export const QuizCart = () => {
 	const { pathname } = useParams()
-	const navigate = useNavigate() // Хук для навигации
+	const navigate = useNavigate()
 	let quizData = algorithmData
 	let title = 'Алгоритм'
 
@@ -21,7 +22,11 @@ export const QuizCart = () => {
 			break
 		case 'algorithm':
 			quizData = algorithmData
-			title = 'Алгоритм' // Исправление названия
+			title = 'Алгоритм'
+			break
+		case 'chemotech':
+			quizData = chemotechData
+			title = 'Схемотехника'
 			break
 		default:
 			quizData = algorithmData
