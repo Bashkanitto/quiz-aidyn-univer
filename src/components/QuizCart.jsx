@@ -118,48 +118,41 @@ export const QuizCart = () => {
 	const { question, correct } = quizData[currentQuestion]
 
 	return (
-		// <div className='container'>
-		// 	<h1>{title}</h1>
-		// 	<p className='breadcrumbs'>
-		// 		Вопрос {currentQuestion + 1} из {quizData.length}
-		// 	</p>
-		// 	<h2 className='question'>{question}</h2>
-		// 	<div className='options'>
-		// 		{shuffledOptions.map(({ key, value }) => (
-		// 			<button
-		// 				key={key}
-		// 				className={`option
-		//           ${showAnswers && key === correct ? 'correct' : ''}
-		//           ${
-		// 						showAnswers && selectedAnswer === key && key !== correct
-		// 							? 'incorrect'
-		// 							: ''
-		// 					}`}
-		// 				onClick={() => handleAnswerClick(key)}
-		// 			>
-		// 				{value}
-		// 			</button>
-		// 		))}
-		// 	</div>
-		// 	<div className='controlButtons'>
-		// 		<button
-		// 			className='nextButton'
-		// 			onClick={handleNextQuestion}
-		// 			disabled={!selectedAnswer}
-		// 		>
-		// 			Следующее
-		// 		</button>
-		// 		<a onClick={reset} href='#'>
-		// 			Сброс
-		// 		</a>
-		// 	</div>
-		// </div>
-		<div
-			style={{ display: 'flex', flexDirection: 'column', marginTop: '50px' }}
-		>
-			<p style={{ fontSize: '36px', color: 'grey', margin: '0' }}>404 Error</p>
-			<p style={{ fontSize: '36px', color: 'grey' }}>Алма"C" сайтты жондеуде</p>
-			<img style={{ width: '100%' }} src='/ishak.jpeg' alt='' />
+		<div className='container'>
+			<h1>{title}</h1>
+			<p className='breadcrumbs'>
+				Вопрос {currentQuestion + 1} из {quizData.length}
+			</p>
+			<h2 className='question'>{question}</h2>
+			<div className='options'>
+				{shuffledOptions.map(({ key, value }) => (
+					<button
+						key={key}
+						className={`option
+		          ${showAnswers && key === correct ? 'correct' : ''}
+		          ${
+								showAnswers && selectedAnswer === key && key !== correct
+									? 'incorrect'
+									: ''
+							}`}
+						onClick={() => handleAnswerClick(key)}
+					>
+						{value}
+					</button>
+				))}
+			</div>
+			<div className='controlButtons'>
+				<button
+					className='nextButton'
+					onClick={handleNextQuestion}
+					disabled={!selectedAnswer}
+				>
+					Следующее
+				</button>
+				<a onClick={reset} href='#'>
+					Сброс
+				</a>
+			</div>
 		</div>
 	)
 }
