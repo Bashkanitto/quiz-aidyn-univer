@@ -157,8 +157,9 @@ export const QuizCart = () => {
 		<div
 			style={{ display: 'flex', flexDirection: 'column', marginTop: '50px' }}
 		>
-			<p style={{ fontSize: '46px', color: 'grey' }}>Алма"C" сайтты жондеуде</p>
-			<img width={500} src='/ishak.jpeg' alt='' />
+			<p style={{ fontSize: '36px', color: 'grey', margin: '0' }}>404 Error</p>
+			<p style={{ fontSize: '36px', color: 'grey' }}>Алма"C" сайтты жондеуде</p>
+			<img style={{ width: '100%' }} src='/ishak.jpeg' alt='' />
 		</div>
 	)
 }
