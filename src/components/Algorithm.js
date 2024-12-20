@@ -896,7 +896,7 @@ export const algorithmData = [
 		c: 'printf',
 		d: 'cout',
 		e: 'дұрыс жауап жоқ',
-		correct: 'e',
+		correct: 'a',
 	},
 	{
 		question: 'Қандай операциялар арифметикалық операцияларға жатады?',
