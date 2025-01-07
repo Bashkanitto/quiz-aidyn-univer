@@ -48,7 +48,7 @@ export const QuizCart = () => {
 	})
 
 	// Shuffle the options for each question
-	const shuffleOptions = options => {
+	const shuffleOptions = (options) => {
 		return options.sort(() => Math.random() - 0.5)
 	}
 
@@ -73,14 +73,14 @@ export const QuizCart = () => {
 	}, [currentQuestion, selectedAnswer, correctAnswers])
 
 	// Handle answer selection
-	const handleAnswerClick = option => {
+	const handleAnswerClick = (option) => {
 		setSelectedAnswer(option)
 		setShowAnswers(true)
 
 		// Check if the selected answer is correct and store it in localStorage
 		const { correct } = quizData[currentQuestion]
 		if (option === correct) {
-			setCorrectAnswers(prev => prev + 1)
+			setCorrectAnswers((prev) => prev + 1)
 		}
 	}
 
