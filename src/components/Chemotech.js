@@ -573,7 +573,7 @@ export const chemotechData = [
 		c: 'G',
 		d: 'Y',
 		e: 'Q',
-		correct: 'b', // Correct answer should be 'А, В,С'
+		correct: 'a',
 	},
 	{
 		question: 'Логика алгебрасының атасы',
@@ -628,7 +628,7 @@ export const chemotechData = [
 		c: '*',
 		d: '!',
 		e: '/',
-		correct: 'd', // Correct answer should be '!'
+		correct: 'a', // Correct answer should be '!'
 	},
 	{
 		question: 'ЖӘНЕ операциясы үшін қолданылатын белгі',
