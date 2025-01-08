@@ -179,7 +179,7 @@ export const chemotechData = [
 		c: '0 мен 1',
 		d: '0 мен 2',
 		e: 'дұрыс жауап жоқ',
-		correct: 'с',
+		correct: 'c',
 	},
 	{
 		question: 'аналогты сигналды сандық сигналға аудару үшін не қолданылады?',
@@ -243,7 +243,7 @@ export const chemotechData = [
 		c: 'Сигналды қарама-қарсы сигналға өзгертеді',
 		d: 'сигналды жояды',
 		e: 'дұрыс жауабы жоқ',
-		correct: 'с',
+		correct: 'c',
 	},
 	{
 		question: 'Дешифратор дегеніміз',
@@ -326,7 +326,7 @@ export const chemotechData = [
 		c: 'ИЛИ-И',
 		d: 'ИЛИ',
 		e: 'НЕ',
-		correct: 'b',
+		correct: 'a',
 	},
 	{
 		question: 'RS триггерінің ерекшелігі:',
@@ -344,7 +344,7 @@ export const chemotechData = [
 		c: 'кіріс сигналына бір уақытта активті 1 сигналын бермеу',
 		d: 'шығыс сигналы жұмыс жасмайды',
 		e: 'дұрыс жауап жоқ',
-		correct: 'a',
+		correct: 'b',
 	},
 	{
 		question: 'ТВ маркировскасы қандай микросхемада көрсетіледі?',
@@ -353,7 +353,7 @@ export const chemotechData = [
 		c: 'D триггерде',
 		d: 'T триггерде',
 		e: 'Dv триггерде',
-		correct: 'a',
+		correct: 'd',
 	},
 	{
 		question: 'Ақпаратты сақтайтын құрылғы',
@@ -425,7 +425,7 @@ export const chemotechData = [
 		c: 'шифратор',
 		d: 'триггер',
 		e: 'дұрыс жауап жоқ',
-		correct: 'c', // Correct answer should be 'шифратор'
+		correct: 'b', // Correct answer should be 'шифратор'
 	},
 	{
 		question: 'біздің сигналымызды екілік сигналға ауыстырады',
@@ -434,7 +434,7 @@ export const chemotechData = [
 		c: 'мультиплексор',
 		d: 'триггер',
 		e: 'дұрыс жауап жоқ',
-		correct: 'b', // Correct answer should be 'дешифратор'
+		correct: 'a', // Correct answer should be 'дешифратор'
 	},
 
 	{
@@ -489,7 +489,7 @@ export const chemotechData = [
 		c: 'пассивті сигнал',
 		d: 'активті сигнал',
 		e: 'синхрнонды орнату',
-		correct: 'e', // Correct answer should be 'синхрнонды орнату'
+		correct: 'a',
 	},
 	{
 		question: 'Регистрде G1,G2 нені білдіреді?',
@@ -776,7 +776,7 @@ export const chemotechData = [
 		c: 'НЕ',
 		d: 'НЕ-ИЛИ',
 		e: 'НЕ-И',
-		correct: 'a',
+		correct: 'e',
 	},
 	{
 		question:
@@ -1142,7 +1142,7 @@ export const chemotechData = [
 		c: 'ақиқат кестесі немесе функцияның аналитикалық өрнегі бойынша толтырылады',
 		d: 'барлық жауап дұрыс',
 		e: 'ақиқат кестесі немесе функцияның аналитикалық өрнегі бойынша кішірейтіледі',
-		correct: 'a',
+		correct: 'e',
 	},
 	{
 		question:
@@ -1180,7 +1180,7 @@ export const chemotechData = [
 		c: 'эмиттер, сандық, биполярлы',
 		d: 'униполярлы, IGBT',
 		e: 'дұрыс жауап жоқ',
-		correct: 'a',
+		correct: 'b',
 	},
 	{
 		question: 'биполярлық транзисторлар мындай типті транзисторларға бөлінеді',
@@ -1254,7 +1254,7 @@ export const chemotechData = [
 		c: 'екі-биполярлы және өрістік',
 		d: 'үш-биполярлық, далалық және инжекциялық',
 		e: 'тек біреуі-биполярлы',
-		correct: 'd',
+		correct: 'с',
 	},
 	{
 		question: 'биполярлық транзистордың шығыстары қалай аталады?',
@@ -1365,7 +1365,7 @@ export const chemotechData = [
 		c: 'D-триггерлер',
 		d: 'JK-триггерлер',
 		e: 'дұрыс жауап жоқ',
-		correct: 'd',
+		correct: 'b',
 	},
 	{
 		question: 'ақпаратты кірісті қабылдайтын триггерлер',
@@ -1460,7 +1460,7 @@ export const chemotechData = [
 		c: 'регистр',
 		d: 'шифратор',
 		e: 'дешифратор',
-		correct: 'b',
+		correct: 'a',
 	},
 	{
 		question:
