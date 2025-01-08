@@ -573,7 +573,7 @@ export const chemotechData = [
 		c: 'G',
 		d: 'Y',
 		e: 'Q',
-		correct: 'a',
+		correct: 'b',
 	},
 	{
 		question: 'Логика алгебрасының атасы',
