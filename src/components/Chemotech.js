@@ -1320,7 +1320,7 @@ export const chemotechData = [
 		c: 'Тінтуір',
 		d: 'Мәтіналғы',
 		e: 'Барлығы дұрыс',
-		correct: 'a',
+		correct: 'e',
 	},
 	{
 		question: 'CPU деген не?',
