@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { algorithmData } from './Algorithm'
 import { architectureData } from './Architecture'
+import { a2 } from './a2'
 import { chemotechData } from './Chemotech'
 import { injeneryData } from './Injenery'
 
@@ -19,6 +20,10 @@ export const QuizCart = () => {
 		case 'architecture':
 			quizData = architectureData
 			title = 'Архитектура'
+			break
+		case 'a2':
+			quizData = a2
+			title = 'Архитектура2'
 			break
 		case 'algorithm':
 			quizData = algorithmData
