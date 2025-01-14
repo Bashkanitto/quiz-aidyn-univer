@@ -1,4 +1,4 @@
-export const architercureData = [
+export const architectureData = [
 	{
 		question: 'Басқару сигналдарын тасымалдауға арналған шина қандай?',
 		a: 'Басқару шинасы',
